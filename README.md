@@ -74,6 +74,16 @@ The following results are after running the model for 10 epochs, on the ETTh dat
   - Model Size: 3.47 MB
 
 ### Pruning
+For these results, we trained the model for 20 epochs, then iteratively pruned 20% of the weights for each linear layer after every 5 epochs for another 20 epochs. Both slightly reduced the inference time while keeping the model size the same. For further details of these results and plots, see `/results/pruning` 
+
+- **Structured Pruning**
+  - Model Size: 3.271986 MB
+  - Total training time: 106.4631118774414s
+  - L2 norm pruning of the weights
+    
+- **Unstructured Pruning**
+  - Model Size: 3.271986 MB
+  - Total training time: 102.85815596580505s 
 
 Future Directions
 

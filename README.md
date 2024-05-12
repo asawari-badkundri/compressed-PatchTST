@@ -26,6 +26,7 @@ The repository contains the following files:
 
 - `main.py`: Main script to run training, fine-tuning, and testing of PatchTST.
 - `model.py`: Implementation of the PatchTST model.
+- `pruning.py`: Implementation of pruning on the PatchTST model.
 - `data.py`: Generates the datasets for training, fine-tuning, validation, and testing.
 - `datasets.py`: Data preprocessing and loading functions.
 - `saved_models/`: Directory to save trained model checkpoints.
